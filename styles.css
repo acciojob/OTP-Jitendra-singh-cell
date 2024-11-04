@@ -1,1 +1,51 @@
 /*  your css code here. If applicable */
+/* Basic styling for the OTP form */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.otp-container {
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#verification_heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#verification_subtext {
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.code-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.code {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin: 0 5px;
+    transition: border-color 0.3s;
+}
+
+.code:focus {
+    border-color: #3498db;
+}
